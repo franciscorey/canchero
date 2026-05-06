@@ -1,0 +1,19 @@
+/* ===================================================
+   App.css — App-specific styles
+   =================================================== */
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: var(--space-lg);
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Section spacing */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
